@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from "react";
-import Login from "./pages/login";
+import Login from "./pages/Login.jsx";
 import { Route, Routes, Navigate, Outlet, useLocation } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
