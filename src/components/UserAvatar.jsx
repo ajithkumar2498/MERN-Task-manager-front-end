@@ -27,6 +27,7 @@ const UserAvatar = () => {
         try {
             await logoutUser().unwrap()
             dispatch(logout())
+            toast.success("user logout successful")
             navigate("/login")
         } catch (error) {
             toast.error("Something went wrong")
